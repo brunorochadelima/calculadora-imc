@@ -18,7 +18,7 @@ body {
 .card {
   display: grid;
   place-items: center;
-
+  
 }
 
 .card-filho {
@@ -27,6 +27,7 @@ body {
   background-color: #ffffff;
   border-radius: 30px;
   padding: 3rem;
+  margin-top: 2rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   
 }
