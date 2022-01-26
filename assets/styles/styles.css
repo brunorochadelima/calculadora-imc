@@ -88,13 +88,7 @@ label {
   margin: 0;
 }
 
-
 input:hover {
   outline: 2px solid #5956E9;
 }
 
-@media screen and (max-width: 600px) {
-  .card-filho {
-    width: 100%;
-  }
-}
