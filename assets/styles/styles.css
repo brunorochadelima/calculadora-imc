@@ -57,7 +57,7 @@ label {
 .calcular {
   border: 1px solid #D6D8E7;
   border-radius: 16px;
-  max-width: 300px;
+  width: 280px;
   height: 64px;
   margin: .7rem;
   padding: .5rem;
