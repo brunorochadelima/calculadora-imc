@@ -20,16 +20,23 @@
         <img src="./assets/img/ilustração-balança.png" alt="Ilustração balança">
         <h1>CALCULADORA IMC</h1>
         <p>O IMC é reconhecido como padrão internacional
-          para avaliar o grau de sobrepeso e obesidade.
-          Calcule o seu agora.</p>
+          para avaliar o grau de sobrepeso e obesidade.</p>
+        <h3><b>Calcule o seu agora.</b></h3><br>
         <form>
-          <input type="number" required placeholder="Digite seu peso" class="input-peso"><br>
-          <input type="number" required placeholder="Digite sua altura" class="input-altura"><br>
-          <input type="submit" value="CACULAR IMC" class="input-enviar">
+          <label for="peso">Peso (kg)</label>
+          <input type="number" id="peso" placeholder="Ex: 70" required>
+
+          <label for="altura">Altura (metro e cm)</label>
+          <input type="number" id="altura" placeholder="Ex: 1.75" required>
+          
+          <input type="button" onclick="capturar()" value="Calcular" class="calcular">
+          <p id="mostraImc"></p>
+          <p id="mostraExplicaçãoImc"></p>
         </form>
       </div>
     </div>
   </main>
+  <script type="text/javascript" src="./assets/js/script.js"></script>
 </body>
 
 </html>

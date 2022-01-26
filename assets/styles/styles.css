@@ -9,6 +9,10 @@ body {
   background-color: #F4ECFB;
 }
 
+.card h3 {
+  color: #9499A7;
+}
+
 .container {
   max-width: 1400px;
   width: 100%;
@@ -29,7 +33,18 @@ body {
   border-radius: 30px;
   padding: 3rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  color: #9499A7;
+  font-weight: bold;
+  font-size: 1.24rem;
 }
 
 .card-filho p {
@@ -37,9 +52,9 @@ body {
   line-height: 150%;
 }
 
-.input-peso,
-.input-altura,
-.input-enviar {
+#peso,
+#altura,
+.calcular {
   border: 1px solid #D6D8E7;
   border-radius: 16px;
   width: 380px;
@@ -48,10 +63,33 @@ body {
   padding: .5rem;
 }
 
-.input-enviar {
+.calcular {
  background-color: #FFE0F9;
  color: #5956E9;
 }
+
+#peso {
+  background-image: url(../img/icon-balança.png);
+  background-repeat: no-repeat;
+  background-position: left 1rem center;
+  padding-left: 4.25rem;
+}
+
+#altura {
+  background-image: url(../img/icon-regua.png);
+  background-repeat: no-repeat;
+  background-position: left 1rem center;
+  padding-left: 4.25rem;
+}
+
+#mostraImc {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+
 
 input:hover {
   outline: 2px solid #5956E9;
