@@ -63,7 +63,7 @@ label {
   padding: .5rem;
 }
 
-.calcular {
+.calcular, button {
  background-color: #FFE0F9;
  color: #5956E9;
  width: 280px;
