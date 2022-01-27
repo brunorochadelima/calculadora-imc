@@ -23,7 +23,6 @@ body {
   display: grid;
   height: 100vh;
   place-items: center;
-  
 }
 
 .card-filho {
@@ -33,6 +32,7 @@ body {
   border-radius: 30px;
   padding: 3rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 1rem;
 }
 
 form {
@@ -63,10 +63,11 @@ label {
   padding: .5rem;
 }
 
-.calcular, button {
- background-color: #FFE0F9;
- color: #5956E9;
- width: 280px;
+.calcular,
+button {
+  background-color: #FFE0F9;
+  color: #5956E9;
+  width: 280px;
 }
 
 #peso {
@@ -93,3 +94,28 @@ input:hover {
   outline: 2px solid #5956E9;
 }
 
+.info-rodape p,
+.info-rodape h3 {
+  color: #9499A7;
+  text-align: center;
+  line-height: 150%;
+  padding: 0 1rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 6000px) {
+
+  .card {
+    height: auto;
+  }
+
+  .card-filho {
+    width: 100%;
+    padding: 1rem;
+  }
+
+}
