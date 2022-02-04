@@ -6,13 +6,13 @@ Calculadora interativa de IMC utilizando Javascript.
 
 ## 🎨 Demonstração
 
-![](https://i.postimg.cc/1RqqnTxv/imcdemo.png) 
+![](https://i.postimg.cc/26ctcKPQ/quiz.png) 
 
 
 
 ## Link para o site
 
- - [Clique aqui e veja o funcionamento da calculadora](https://brunorochadelima.github.io/calculadora-imc/)
+ - [Clique aqui e veja o quiz em funcionamento](https://brunorochadelima.github.io/calculadora-imc/)
  
 ## Autor
 
